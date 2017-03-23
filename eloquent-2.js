@@ -42,3 +42,17 @@ Fizz
 Buzz
 
 //Chessboard
+var times = 8; 
+var result = '';
+for(var i = 0; i < times; i++) { 
+  for(var x = 0; x <= 4; x++) { 
+    if(i % 2 === 0) { 
+      result += '# ';
+    }
+    else{ 
+      result += ' #';
+    }
+  }
+  result = result + '\n' 
+}
+console.log(result);
